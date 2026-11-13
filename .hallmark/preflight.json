@@ -1,0 +1,22 @@
+{
+  "scanned": "2026-11-13",
+  "findings": {
+    "fonts": "Golos Text, src/style.css:1",
+    "palette": "Green original; user explicitly selected white-blue during redesign",
+    "framework": "Buildless ES modules, package.json:1",
+    "screens": "overview, setup, comparisons, allocation, sensitivity, method"
+  },
+  "preserve": [
+    "all calculations and data files",
+    "all links, fields, data attributes and handlers",
+    "six application screens",
+    "project import, export and autosave"
+  ],
+  "introduce": [
+    "white-blue palette with role tokens",
+    "readable Cyrillic typography",
+    "data-first overview",
+    "responsive shell",
+    "URL-selected views"
+  ]
+}

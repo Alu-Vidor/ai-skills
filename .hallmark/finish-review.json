@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-13",
+  "skill": "Hallmark 2.0.0",
+  "source": "nutlope/hallmark",
+  "source_commit": "04977e15f3dfd6ee4b74c887dac3eb52665d6c92",
+  "mode": "redesign",
+  "scope": "app",
+  "theme": "Dose, adapted to the author's white-blue palette",
+  "review": "independent read-only finish review",
+  "findings": [
+    {"issue": "Small phone chart labels", "status": "resolved", "change": "340-unit mobile viewBox, 14-unit labels and four horizontal ticks"},
+    {"issue": "Long field values hidden in single-line inputs", "status": "resolved", "change": "Wrapping, auto-sizing textareas for goal, component names and descriptions, preserving field data attributes"},
+    {"issue": "Clipped maximum-hours placeholder", "status": "resolved", "change": "120px desktop inputs and full-width phone inputs"}
+  ],
+  "old_advantage": "Total hours and consistency were visible earlier on the phone",
+  "response": "Both facts are now also shown in the project context at the top",
+  "remaining_finish_note": "Pairwise matrices remain horizontally scrollable on phones with pinned row labels and an explicit hint",
+  "calculations": "Source data, math.js and numerical test expectations unchanged"
+}

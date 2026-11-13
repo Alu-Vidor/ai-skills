@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "routes": 6,
+  "widths": [
+    1440,
+    375
+  ],
+  "checks": [
+    "no horizontal overflow",
+    "all six screens render",
+    "custom components and criteria persist",
+    "pairwise input recalculates",
+    "infeasible allocations show error",
+    "valid budget totals 34 hours",
+    "JSON exports and imports",
+    "mobile menu navigates",
+    "no JavaScript page errors"
+  ]
+}

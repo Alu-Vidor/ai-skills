@@ -1,0 +1,29 @@
+[
+ {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "app",
+  "theme": "dose",
+  "axes": [
+   "light",
+   "grotesk-sans",
+   "chromatic-blue"
+  ],
+  "nav": "kept sidebar with responsive disclosure",
+  "footer": "compact factual footer",
+  "imagery": "none, working application",
+  "photos": [],
+  "signature": "editable AHP priorities",
+  "sections": [
+   "overview",
+   "setup",
+   "comparisons",
+   "allocation",
+   "sensitivity",
+   "method"
+  ],
+  "waived": [],
+  "prompt": "Configurable AHP workbench, user requested white-blue or white-dark-blue",
+  "date": "2026-11-13"
+ }
+]

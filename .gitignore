@@ -4,3 +4,11 @@ dist/
 .DS_Store
 .env*
 !.env.example
+.hallmark/runtime/
+.hallmark/*.mjs
+.hallmark/old-app.js
+.hallmark/audit*.json
+.hallmark/*-report.txt
+.hallmark/qa-shots/
+.hallmark/downloads/
+.hallmark/salt

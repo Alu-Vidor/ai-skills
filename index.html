@@ -3,15 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#173a36">
+  <meta name="theme-color" content="#245cb4">
   <meta name="description" content="Мастерская приоритетов ИИ-компетентности учителя математики. Парные сравнения, сценарии и распределение учебного времени.">
-  <title>Приоритет — мастерская учебных решений</title>
+  <title>Приоритет: мастерская учебных решений</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Перейти к содержанию</a>
-  <div id="app"></div>
+  <div id="app"><div class="startup" role="status"><strong>Приоритет</strong><p>Загрузка проекта и исходных данных…</p></div></div>
+  <noscript><div class="startup"><h1>Приоритет</h1><p>Для расчётов и сохранения проекта включите JavaScript в браузере.</p><a href="https://github.com/Alu-Vidor/ai-skills">Исходный код и описание приложения</a></div></noscript>
   <div id="toast" role="status" aria-live="polite"></div>
   <input id="import-file" type="file" accept="application/json,.json" hidden>
   <script type="module" src="./src/app.js"></script>

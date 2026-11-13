@@ -1,0 +1,13 @@
+:root {
+ color-scheme:light;
+ --font-body:'Golos Text','Segoe UI',sans-serif; --font-display:var(--font-body); --display-weight:500; --tracking-display:-.025em;
+ --text-xs:.75rem; --text-sm:.875rem; --text-md:1rem; --text-lg:1.125rem; --text-xl:1.25rem; --text-2xl:1.5rem; --text-3xl:1.875rem; --text-display:1.875rem; --text-section:1.125rem; --text-title:1rem;
+ --space-3xs:2px; --space-2xs:4px; --space-xs:8px; --space-sm:12px; --space-md:16px; --space-5:20px; --space-lg:24px; --space-7:28px; --space-xl:32px; --space-2xl:40px; --space-3xl:48px; --space-4xl:64px;
+ --gutter:40px; --gap-columns:24px; --container:1320px; --sidebar-width:232px;
+ --color-paper:oklch(98.4% .005 250); --color-white:oklch(99.8% .001 250); --color-paper-2:oklch(96.7% .011 250); --color-paper-3:oklch(94.5% .022 250);
+ --color-ink:oklch(25% .038 255); --color-ink-2:oklch(36% .035 253); --color-muted:oklch(47% .029 253); --color-rule:oklch(88% .014 250); --color-field-edge:oklch(62% .031 250);
+ --color-accent:oklch(49% .15 256); --color-accent-deep:oklch(43% .14 257); --color-accent-soft:oklch(94% .031 252); --color-accent-ink:oklch(99.8% .001 250); --color-focus:oklch(44% .17 256);
+ --color-error:oklch(43% .065 36); --color-warning-paper:oklch(97% .019 77); --color-success:var(--color-accent-deep); --color-backdrop:oklch(25% .038 255 / .35); --color-shadow:oklch(28% .04 253 / .14);
+ --series-1:oklch(46% .15 256); --series-2:oklch(59% .11 249); --series-3:oklch(35% .078 256); --series-4:oklch(64% .07 249); --series-5:oklch(51% .045 251); --series-6:oklch(40% .12 259); --series-7:oklch(59% .065 257); --series-8:oklch(44% .045 249); --series-9:oklch(54% .13 261); --series-10:oklch(61% .035 250);
+ --radius-card:8px; --radius-input:6px; --radius-pill:999px; --dur-micro:120ms; --dur-short:180ms; --ease-out:cubic-bezier(.2,.7,.3,1);
+}
